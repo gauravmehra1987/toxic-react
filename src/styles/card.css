@@ -1,0 +1,21 @@
+.cardHolder {
+    position: relative;
+    background-color: rgb(235, 194, 194);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    margin: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+    padding-top: 8vh;
+}
