@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* use this property to hide the scrollbar on firefox */
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+}
+
+.image {
+    scroll-snap-align: start;
+}

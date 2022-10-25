@@ -1,8 +1,8 @@
 export const images = [
     {
         img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-        title: 'Breakfast',
-        author: '@bkristastucchio',
+        title: 'Contemporary black enamell kundan studed jhumka',
+        author: 'Buy Toxxiic contemporary black enamell kundan studed jhumka earrings by Toxxiic at just Rs. 476 - Free shipping and special offers available on all products. Item Code: RMV141',
     },
     {
         img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
