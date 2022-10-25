@@ -1,7 +1,9 @@
 import React from 'react'
-import { Container } from '@mui/material';
+import { Container, Rating } from '@mui/material';
 import { images } from "../utils/images";
 import '../styles/card.css'
+import Price from './Price';
+import ImageSlider from './ImageSlider';
 const CardSlider = () => {
     return (
         <div className="cardHolder">
@@ -14,9 +16,14 @@ const CardSlider = () => {
 const Card = ({ img, title, author }) => {
     return (
         <Container className="card" maxWidth="lg">
-            <p>{title}</p>
-            <img src={img} width={"100%"} />
-            <h4>{author}</h4>
+            <p className="productTitle">{title}</p>
+            <hr></hr>
+            {/*<img className="productImage" src={img} width={"100%"} />*/}
+            <ImageSlider></ImageSlider>
+            <div className='priceContainer'><Price></Price>  <Rating name="read-only" value={2.5} readOnly /></div>
+
+            <p>{author}</p>
+
         </Container>
     )
 }
